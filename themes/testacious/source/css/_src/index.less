@@ -11,6 +11,7 @@
 @clr-mix80: mix(@clr-back, @clr-fore, 80%);
 @clr-mix50: mix(@clr-back, @clr-fore, 50%);
 @clr-mix20: mix(@clr-back, @clr-fore, 20%);
+@clr-accent: hsv(200, 60%, 64%);
 
 :root {
   &:extend(.font-sans);
@@ -47,16 +48,66 @@
 @import "headings.less";
 @import "highlight.less";
 
-.intro {
-  margin: 1rem;
+@pad-v: 0.5rem;
+@pad-h: 1rem;
 
+.posts-list {
   display : flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  > * {
+
+  > .posts-item {
     flex-grow: 1;
-    width: 25vw;
-    height: 25vw;
-    outline: 1px solid red;
+    background-position: center center;
+    background-size: cover;
+    padding: @pad-v @pad-h;
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 1pt 2pt fade(black, 40%);
+    position: relative;
+    background-color: #999;
+    overflow: hidden;
+    box-sizing: border-box;
+    box-shadow:  none;
+
+    > h2 {
+      position: absolute;
+      text-overflow: ellipsis;
+    }
+
+    &:hover {
+      box-shadow: inset 0 0 1rem 0 fade(black, 20%);
+    }
+
+    &::after {
+      content: "continue\002026";
+      position: absolute;
+      text-align: right;
+      padding: @pad-v @pad-h;
+      background-color: @clr-accent;
+      bottom: 0; right: 0; left: 0;
+      transform: translatey(100%);
+      transition: transform 120ms ease-in;
+    }
+
+    &:hover::after {
+      transform: translatey(0);
+    }
+
+    @media screen and (max-width : 767px) {
+      width: 100vw;
+      height: 25vmax;
+    }
+
+    @media screen and (min-width : 768px) and (max-width: 1199px) {
+      width: 33vw;
+      height: 33vw;
+    }
+
+    @media screen and (min-width : 1200px) {
+      width: 25vw;
+      height: 25vw;
+    }
   }
 }

@@ -7,7 +7,7 @@ article {
     margin-bottom: @margin-base;
   }
 
-  h1,h2,h3,h4,h5,h6,p,ul,ol,.highlight,>pre {
+  h1,h2,h3,h4,h5,h6,p,ul,ol,.highlight,>pre,footer {
     &:extend(.readability, .auto-margin);
   }
 
@@ -37,6 +37,14 @@ article {
     margin-left: -1rem;
     margin-right: -1rem;
     > :last-child { margin-bottom: 0; }
+  }
+
+  footer {
+    font-size: 0.8rem;
+    text-align: right;
+    > time::before {
+      content: "About ";
+    }
   }
 
   pre,code { font-family: monospace; }
