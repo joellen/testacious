@@ -1,0 +1,5 @@
+nav.intro
+	each post in page.posts.toArray()
+		a(href=url_for(post.path))
+			h2 #{post.title}
+

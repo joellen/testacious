@@ -1,0 +1,39 @@
+header {
+  &:extend(.font-serif);
+  font-size: 3em;
+  padding: 0 1ch;
+  border-bottom: 1px solid @clr-mix80;
+  box-shadow: 0 0.1rem 1rem fade(@clr-fore, 20%);
+  color: @clr-fore;
+  background-color: @clr-back;
+
+  @cursor: 0.07ch;
+  //letter-spacing: @cursor;
+
+  #testacious { text-transform: capitalize; }
+  #testacious::after {
+    content: "";
+    display: inline-block;
+    width: @cursor;
+    margin-right: @cursor  * -0.5;
+    margin-left: @cursor  * -0.5;
+    background-color: black;
+    height: 1em;
+    vertical-align: -10%;
+    position: relative;
+    animation: blink 2s infinite linear;
+  }
+
+  .acious { transition: color 1000ms; }
+  &.typing .acious {
+    color: @clr-mix80;
+  }
+}
+
+@keyframes blink {
+  0% { opacity: 0; }
+  10% { opacity: 1; }
+  50% { opacity: 1; }
+  60% { opacity: 0; }
+  100% { opacity: 0; }
+}

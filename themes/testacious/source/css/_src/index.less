@@ -1,0 +1,62 @@
+@import (inline) "reset.css";
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400);
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+.font-sans { font-family: 'Open Sans', sans serif; }
+.font-serif { font-family: 'Bree Serif', serif; }
+
+@clr-back: white;
+@clr-fore: black;
+@clr-mix80: mix(@clr-back, @clr-fore, 80%);
+@clr-mix50: mix(@clr-back, @clr-fore, 50%);
+@clr-mix20: mix(@clr-back, @clr-fore, 20%);
+
+:root {
+  &:extend(.font-sans);
+  line-height: 1.48;
+  font-size: 12pt;
+  min-height: 100vh;
+  background-color: @clr-mix80;
+  background-image:
+    linear-gradient(
+      90deg,
+      fade(@clr-back, 0%),
+      @clr-back 10vw,
+      @clr-back 90vw,
+      fade(@clr-back, 0%));
+}
+
+@min-width: 512px;
+@max-width: 800px;
+
+.readability {
+  max-width: @max-width;
+  min-width: @min-width;
+  width: 70vw;
+  box-sizing: border-box;
+}
+
+.auto-margin {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@import "header.less";
+@import "article.less";
+@import "headings.less";
+@import "highlight.less";
+
+.intro {
+  margin: 1rem;
+
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  > * {
+    flex-grow: 1;
+    width: 25vw;
+    height: 25vw;
+    outline: 1px solid red;
+  }
+}

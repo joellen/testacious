@@ -1,0 +1,47 @@
+@margin-base: 1rem;
+
+article {
+  margin: 1rem;
+
+  p,ul,ol,blockquote,.highlight,>pre,hr {
+    margin-bottom: @margin-base;
+  }
+
+  h1,h2,h3,h4,h5,h6,p,ul,ol,.highlight,>pre {
+    &:extend(.readability, .auto-margin);
+  }
+
+  ul>li,ol>li { margin: @margin-base / 4 0; }
+
+  hr {
+    margin: (@margin-base * 4) (@margin-base * -1);
+    height: 1px;
+    border: 0;
+    background-color: @clr-mix80;
+  }
+
+  blockquote {
+    background-color: @clr-mix80;
+    color: white;
+    &:extend(.font-serif);
+  }
+
+  em { font-style: italic; }
+
+  blockquote {
+    &:extend(.h3);
+    text-align: center;
+    padding: 2rem @margin-base;
+    background-color: @clr-mix80;
+    color: white;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    > :last-child { margin-bottom: 0; }
+  }
+
+  pre,code { font-family: monospace; }
+
+  ul, ol { padding-left: 4ch; }
+  ul { list-style-type: disc; }
+  ol { list-style-type: decimal; }
+}
