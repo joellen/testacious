@@ -1,4 +1,14 @@
 ;(function() {
+  var postsList = document.querySelector('.post-list');
+  if(!postsList) return;
+  postsList.addEventListener("click", function(e) {
+    console.log(e.target);
+    if(e.target.classList.contains('post-list-item'))
+      window.location = e.target.getAttribute('data-link-to');
+  })
+})();
+
+;(function() {
   var defaultPrefix = "test",
       r = Math.random,
       rv = function(m) { return r() * m; },
