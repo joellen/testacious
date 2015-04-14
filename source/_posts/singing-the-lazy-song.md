@@ -14,7 +14,7 @@ My intention for 2015 -- well, actually, for all time -- is to be a lazy tester.
 
 I use this guy to create test data quickly.  I can save a set of POSTs to create data as a collection and quickly add data to any build. Take a look.
 
-[![Postman screen shot](http://www.testacious.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-04-at-1.47.32-PM-1024x440.png)](http://www.testacious.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-04-at-1.47.32-PM.png)
+[![Postman screen shot](postman.png)](postman.png)
 
 I can also run a quick API query to validate what I see on the screen, which is particularly helpful with reports.
 
@@ -28,7 +28,7 @@ CloudApp is a cloud storage tool that lets you upload screen shots and screen re
 
 SpeedLimit is a handy little system tool on Mac that will slow your connection speed.  Since I do most of my testing on local machines, I don't get the same response times as in-the-wild testing. Slower connection speeds can uncover problems with slow javascript execution or access of remotely stored objects. SpeedLimit lets me show things down so that I can experience my customer's pain.
 
-[![SpeedLimit screenshot](http://www.testacious.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-04-at-10.08.21-AM-1024x406.png)](http://www.testacious.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-04-at-10.08.21-AM.png)
+[![SpeedLimit screenshot](speedlimit.png)](speedlimit.png)
 
 ## [Chrome Developer tools](https://developer.chrome.com/devtools)
 
@@ -40,7 +40,7 @@ New kid on the block, Bug Magnet, was just released.  It's a Chrome extension (
 
 Here's some JS injection Bug Magnet generated for an Amazon search field:
 
-[![BugMagnet screenshot](http://www.testacious.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-04-at-2.39.45-PM.png)](http://www.testacious.com/wp-content/uploads/2015/01/Screen-Shot-2015-01-04-at-2.39.45-PM.png)
+[![BugMagnet screenshot](bugmagnet.png)](bugmagnet.png)
 
 I know you can do this on your own, but why?  Be lazy - let BugMagnet do it for you.
 
