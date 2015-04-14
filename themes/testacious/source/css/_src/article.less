@@ -17,12 +17,13 @@ article {
     margin: (@margin-base * 4) (@margin-base * -1);
     height: 1px;
     border: 0;
-    background-color: @clr-mix80;
+    background-color: @clr-gray-l2;
   }
 
   blockquote {
-    background-color: @clr-mix80;
-    color: white;
+    background-color: @clr-gray-l2;
+    color: @clr-back;
+    text-shadow: 0 1pt 2pt @clr-shadow;
     &:extend(.font-serif);
   }
 
@@ -32,7 +33,7 @@ article {
     &:extend(.h3);
     text-align: center;
     padding: 2rem @margin-base;
-    background-color: @clr-mix80;
+    background-color: @clr-accent;
     color: white;
     margin-left: -1rem;
     margin-right: -1rem;
@@ -42,8 +43,13 @@ article {
   footer {
     font-size: 0.8rem;
     text-align: right;
-    > time::before {
-      content: "About ";
+    .dated::before {
+      font-family: 'FontAwesome';
+      content: "\00f133\002003";
+    }
+    .author::before {
+      font-family: 'FontAwesome';
+      content: "\00f007\002003";
     }
   }
 
@@ -52,4 +58,33 @@ article {
   ul, ol { padding-left: 4ch; }
   ul { list-style-type: disc; }
   ol { list-style-type: decimal; }
+}
+
+
+.tag-list {
+  list-style: none;
+}
+
+.tag-list-item {
+  display: inline-block;
+  background-color: @clr-accent;
+  padding: @pad-v / 2  @pad-h / 2;
+  border-radius: 0.5rem;
+}
+
+:link, :visited {
+  .tag-list-link& {
+    color: white;
+  }
+}
+
+.tag-list-count {
+  font-size: 0.6rem;
+  background-color: @clr-back;
+  display: inline-block;
+  color: @clr-accent;
+  text-align: center;
+  min-width: 3ch;
+  margin-left: 1ch;
+  border-radius: 0.5rem;
 }

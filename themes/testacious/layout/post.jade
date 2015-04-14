@@ -2,4 +2,5 @@ article
 	h1 #{page.title}
 	| !{page.content}
 	footer
-		time(datetime=date_xml(page.date)) #{moment(page.date).fromNow()}.
+		.dated: time(datetime=date_xml(page.date)) #{moment(page.date).fromNow()}.
+		| !{list_tags()}

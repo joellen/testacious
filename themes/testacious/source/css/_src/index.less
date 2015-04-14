@@ -1,31 +1,41 @@
 @import (inline) "reset.css";
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400);
-@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,600,400);
+@import url(//fonts.googleapis.com/css?family=Bree+Serif);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 
-.font-sans { font-family: 'Open Sans', sans serif; }
+.font-sans { font-family: 'Open Sans', sans-serif; }
 .font-serif { font-family: 'Bree Serif', serif; }
 
 @clr-back: white;
 @clr-fore: black;
-@clr-mix80: mix(@clr-back, @clr-fore, 80%);
-@clr-mix50: mix(@clr-back, @clr-fore, 50%);
-@clr-mix20: mix(@clr-back, @clr-fore, 20%);
+
+@clr-warm-gray: hsv(5,7%,49%);
+
+@clr-gray-l2: lighten(@clr-gray, 40%);
+@clr-gray-l1: lighten(@clr-gray, 22%);
+@clr-gray: @clr-warm-gray;
+@clr-gray-d1: darken(@clr-gray, 22%);
+@clr-gray-d2: darken(@clr-gray, 40%);
+
 @clr-accent: hsv(200, 60%, 64%);
+
+@clr-shadow: fade(@clr-fore, 35%);
 
 :root {
   &:extend(.font-sans);
   line-height: 1.48;
   font-size: 12pt;
   min-height: 100vh;
-  background-color: @clr-mix80;
+  background-color: @clr-gray-l2;
   background-image:
     linear-gradient(
       90deg,
-      fade(@clr-back, 0%),
+      fade(@clr-back, 0%) 0%,
       @clr-back 10vw,
       @clr-back 90vw,
-      fade(@clr-back, 0%));
+      fade(@clr-back, 0%) 100%),
+    url(images/grit-fs8.png);
 }
 
 @min-width: 512px;
@@ -51,6 +61,14 @@
 @pad-v: 0.5rem;
 @pad-h: 1rem;
 
+:link, :visited {
+  text-decoration: none;
+  color: @clr-accent;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .posts-list {
   display : flex;
   flex-wrap: wrap;
@@ -64,9 +82,9 @@
     padding: @pad-v @pad-h;
     text-decoration: none;
     color: white;
-    text-shadow: 0 1pt 2pt fade(black, 40%);
+    text-shadow: 0 1pt 2pt @clr-shadow;
     position: relative;
-    background-color: #999;
+    background-color: @clr-gray;
     overflow: hidden;
     box-sizing: border-box;
     box-shadow:  none;

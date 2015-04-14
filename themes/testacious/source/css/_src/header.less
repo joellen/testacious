@@ -1,9 +1,9 @@
-#header {
+body>header {
   &:extend(.font-serif);
   font-size: 3em;
   padding: 0 1ch;
-  border-bottom: 1px solid @clr-mix80;
-  box-shadow: 0 0.1rem 1rem fade(@clr-fore, 20%);
+  border-bottom: 1px solid @clr-gray-l2;
+  box-shadow: 0 0.1rem 1rem @clr-shadow;
   color: @clr-fore;
   background-color: @clr-back;
 
@@ -26,7 +26,7 @@
 
   .acious { transition: color 1000ms; }
   &.typing .acious {
-    color: @clr-mix80;
+    color: @clr-gray-l2;
   }
 }
 
