@@ -4,6 +4,8 @@ mixin link(post)
 		- attrs.style = { 'background-image': 'url(' + url_for(post.img) + ')' }
 	div.post-list-item&attributes(attrs)
 		h2: a(href=url_for(post.path)) #{post.title}
+		if (post.tags && post.tags.length)
+			| !{list_tags(post.tags, { class: 'overview-tags tag', show_count: false })}
 
 nav.post-list
 	each post in page.posts.toArray()

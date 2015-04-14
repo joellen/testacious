@@ -42,7 +42,6 @@ article {
 
   footer {
     font-size: 0.8rem;
-    text-align: right;
     .dated::before {
       font-family: 'FontAwesome';
       content: "\00f133\002003";
@@ -63,6 +62,7 @@ article {
 
 .tag-list {
   list-style: none;
+  padding-left: 0;
 }
 
 .tag-list-item {
@@ -70,6 +70,7 @@ article {
   background-color: @clr-accent;
   padding: @pad-v / 2  @pad-h / 2;
   border-radius: 0.5rem;
+  margin-right: 1ch;
 }
 
 :link, :visited {
