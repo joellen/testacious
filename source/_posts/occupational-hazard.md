@@ -3,6 +3,7 @@ date: 2015-01-01 16:24:44
 tags:
 	- fugacious
 id: 44
+featured_image: brain.jpg
 ---
 
 It's entirely possible that the pain in my left quadriceps is a tumor. And my daughter will cancel her flight to Denver and not visit me.  And I'll get fired on Monday morning.  Possible?  Of course.  Anything is possible.  Probable?  That's a different story.

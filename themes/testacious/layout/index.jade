@@ -1,7 +1,7 @@
 mixin link(post)
 	- var attrs = { 'data-link-to': url_for(post.path) }
-	if post.img
-		- attrs.style = { 'background-image': 'url(' + url_for(post.img) + ')' }
+	if post.featured_image
+		- attrs.style = { 'background-image': 'url(' + url_for(post.path + post.featured_image) + ')' }
 	div.post-list-item&attributes(attrs)
 		h2: a(href=url_for(post.path)) #{post.title}
 		if (post.tags && post.tags.length)

@@ -4,6 +4,7 @@ tags:
 	- efficacious
 id: 33
 comment: false
+featured_image: panda.jpg
 ---
 
 New Year's resolutions are too easy.  Break them once and you're off the hook.  I prefer intentions - yoga-speak for practicing with focus on a particular principle or ideal. Intentions don't go away like New Year's resolutions when you break them.  You get to keep trying.

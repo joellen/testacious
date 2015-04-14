@@ -3,6 +3,7 @@ date: 2014-11-30 17:21:14
 tags:
 	- audacious
 id: 8
+featured_image: selfie.jpg
 ---
 
 Just to get this out of the way:

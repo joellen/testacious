@@ -3,6 +3,7 @@ date: 2014-12-31 22:21:34
 tags:
 	- outrageous
 id: 40
+featured_image: mask.jpg
 ---
 
 Software testing seems stuck in a rut, in my part of the world anyway. Other disciplines seem to constantly innovate and expand - design, user experience, development itself - but software testing seems to stay the same.

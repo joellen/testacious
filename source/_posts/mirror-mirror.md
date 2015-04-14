@@ -3,6 +3,7 @@ date: 2015-02-22 18:47:34
 tags:
 	- sequacious
 id: 94
+featured_image: kitten.jpg
 ---
 
 Agile is supposed to be all about transparency. That was its biggest appeal to me, and also the hardest principle for me to put into practice.
