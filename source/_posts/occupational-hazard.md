@@ -23,7 +23,3 @@ So the trained habit of imagining possible failures and only preparing for the p
 I'm able to turn off this thought pattern occasionally (usually with help from my love), and I imagine possible successes instead.  That's when I buy lottery tickets :). And propose crazy ideas at the office that just might work.  Those are another blog post, though.
 
 Thanks for listening!
-
-&nbsp;
-
-&nbsp;
