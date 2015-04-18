@@ -3,7 +3,7 @@ article
 	if (page.tags && page.tags.length)
 		| !{list_tags(page.tags, { class: 'article-tags tag', show_count: false })}
 
-	| !{page.content}
+	.content !{page.content}
 	footer
 		.dated: time(datetime=date_xml(page.date)) #{moment(page.date).fromNow()}
 		.share
