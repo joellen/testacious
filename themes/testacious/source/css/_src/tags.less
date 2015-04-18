@@ -3,22 +3,24 @@
   padding-left: 0;
 }
 
-.tag-list-item {
-  display: inline-block;
-  background-color: @clr-accent;
-  padding: @pad-v / 2  @pad-h / 2;
-  border-radius: 0.5rem;
-  margin-right: 1ch;
-}
-
 :link, :visited {
   .tag-list-link& {
     color: white;
+    display: inline-block;
+    background-color: @clr-accent;
+    padding: @pad-v / 2  @pad-h / 2;
+    border-radius: 0.5rem;
+    margin-right: 1ch;
+
+    &:hover {
+      text-decoration: none;
+    }
 
     &::before {
-     content: '\00f02b  ';
+      content: '\00f02b  ';
       color: white;
       font-family: "FontAwesome";
+      vertical-align: middle;
     }
   }
 }
