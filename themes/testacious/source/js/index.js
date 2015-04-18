@@ -16,11 +16,11 @@
       rvib = function(m,n) { return rvi(n-m) + m; };
 
   var prefixes = [
-    "aud", "bod", "cap", "contum", "curv", "ed",
+    "aud", "bod", "cap", "contum", "ed",
     "effic", "fall", "fug", "gr", "hell", "ineffic",
     "loqu", "mend", "perspic", "pertin", "pred", "pugn",
     "rap", "sag", "sal", "sequ", "sp", "ten", "ungr",
-    "ver", "viv", "vor"];
+    "ver", "vor"];
 
   var head = document.getElementById("header"),
       el = document.getElementById("testacious");
