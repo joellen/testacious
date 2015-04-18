@@ -38,12 +38,12 @@
     url(images/grit-fs8.png);
 }
 
-@min-width: 512px;
+@min-width: 320px;
 @max-width: 800px;
 
 .readability {
   max-width: @max-width;
-  min-width: @min-width;
+  min-width: ~"calc(@{min-width} - 3rem)";
   width: 70vw;
   box-sizing: border-box;
 }

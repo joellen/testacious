@@ -1,8 +1,6 @@
 @margin-base: 0.8rem;
 
 article {
-  margin: 1rem;
-
   .content :link:hover { text-decoration: underline; }
 
   p,ul,ol,blockquote,.highlight,>pre,hr {
@@ -11,6 +9,12 @@ article {
 
   h1,h2,h3,h4,h5,h6,p,ul,ol,.highlight,>pre,footer {
     &:extend(.readability, .auto-margin);
+  }
+
+  @media only screen
+  and (min-device-width : 320px)
+  and (max-device-width : 568px) {
+    p { text-align: justify; }
   }
 
   ul>li,ol>li { margin: @margin-base / 4 0; }
