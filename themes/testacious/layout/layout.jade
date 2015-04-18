@@ -5,7 +5,7 @@ html
 		meta(charset='utf-8')
 		| !{css('css/style.css')}
 	body
-		header#header: h1
+		header#header: h1: a(href=url_for())
 			strong#testacious test
 			span.acious acious
 		| !{body}
