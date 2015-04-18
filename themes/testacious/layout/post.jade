@@ -6,3 +6,6 @@ article
 	| !{page.content}
 	footer
 		.dated: time(datetime=date_xml(page.date)) #{moment(page.date).fromNow()}
+		.share
+			a.twitter(href='https://twitter.com/share?url=' + encodeURIComponent(page.permalink) + '&text=Hey check this out') Share on twitter
+			a.linked_in(href='http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(page.permalink) + '&title=' + encodeURIComponent(page.title)) Share on LinkedIn
