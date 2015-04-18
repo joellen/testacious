@@ -1,7 +1,8 @@
 article
 	h1 #{page.title}
+	if (page.tags && page.tags.length)
+		| !{list_tags(page.tags, { class: 'article-tags tag', show_count: false })}
+
 	| !{page.content}
 	footer
 		.dated: time(datetime=date_xml(page.date)) #{moment(page.date).fromNow()}.
-		if (page.tags && page.tags.length)
-			| !{list_tags(page.tags, { class: 'article-tags tag', show_count: false })}
