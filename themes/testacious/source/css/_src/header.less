@@ -1,17 +1,20 @@
-body>header {
-  &:extend(.font-serif);
-  font-size: 3em;
+#header {
   padding: 0 1ch;
   border-bottom: 1px solid @clr-gray-l2;
   box-shadow: 0 0.1rem 1rem @clr-shadow;
-  color: @clr-fore;
   background-color: @clr-back;
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
 
   @cursor: 0.07ch;
 
   :link, :visited {
     color: @clr-fore;
   }
+
+  >h1 { flex-grow: 1; }
 
   #testacious::after {
     content: "";

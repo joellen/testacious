@@ -6,8 +6,14 @@ html
 		meta(charset='utf-8')
 		| !{css('css/style.css')}
 	body
-		header#header: h1: a(href=url_for())
-			strong#testacious test
-			span.acious acious
-		| !{body}
+		input#site_nav_active(type='checkbox')
+		header#header
+			h1: a(href=url_for())
+				strong#testacious test
+				span.acious acious
+			label(for='site_nav_active') Open Page Naviagtion
+		nav#site_nav
+			| wat
+			label(for='site_nav_active') Close Page Naviagtion
+		#main !{body}
 		| !{js('js/index.js')}
