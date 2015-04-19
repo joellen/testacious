@@ -26,23 +26,15 @@ article {
     background-color: @clr-gray-l2;
   }
 
-  blockquote {
-    background-color: @clr-gray-l2;
-    color: @clr-back;
-    text-shadow: 0 1pt 2pt @clr-shadow;
-    &:extend(.font-serif);
-  }
-
   em { font-style: italic; }
 
   blockquote {
     &:extend(.h3);
     text-align: center;
     padding: 2rem @margin-base;
+    text-shadow: 0 1pt 2pt @clr-shadow;
     background-color:  @clr-gray-l2;
     color: white;
-    margin-left: -1rem;
-    margin-right: -1rem;
     > :last-child { margin-bottom: 0; }
   }
 
