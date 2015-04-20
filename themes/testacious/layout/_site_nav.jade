@@ -1,0 +1,6 @@
+label(for='site_nav_active') Close Page Naviagtion
+if site.pages.length
+	h2 Pages
+	ul.pages
+		each page in site.pages.toArray()
+				li: a(href=url_for(page.path)) #{page.title}

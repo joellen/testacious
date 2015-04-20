@@ -7,13 +7,13 @@ html
 		| !{css('css/style.css')}
 	body
 		input#site_nav_active(type='checkbox')
-		header#header
-			h1: a(href=url_for())
-				strong#testacious test
-				span.acious acious
-			label(for='site_nav_active') Open Page Naviagtion
 		nav#site_nav
-			| wat
-			label(for='site_nav_active') Close Page Naviagtion
-		#main !{body}
+			include _site_nav.jade
+		#main
+			header#header
+				h1: a(href=url_for())
+					strong#testacious test
+					span.acious acious
+				label(for='site_nav_active') Open Page Naviagtion
+			#body !{body}
 		| !{js('js/index.js')}
