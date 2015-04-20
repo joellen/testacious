@@ -67,7 +67,10 @@ theme: testacious
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: rsync
+  host: testacious.com
+  user: joellen_carter
+  root: ~/testacious.com
 
 marked:
   gfm: true
