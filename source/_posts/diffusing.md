@@ -1,4 +1,4 @@
-title: "diffusing"
+title: "Diffusing"
 date: 2015-04-26 15:13:58
 tags:
   - spacious
