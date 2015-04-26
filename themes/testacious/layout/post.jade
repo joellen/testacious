@@ -7,5 +7,5 @@ article
 	footer
 		.dated: time(datetime=date_xml(page.date)) #{page.date.fromNow()}
 		.share
-			a.twitter(href='https://twitter.com/share?url=' + encodeURIComponent(page.permalink) + '&text=Hey check this out') Share on twitter
-			a.linked_in(href='http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(page.permalink) + '&title=' + encodeURIComponent(page.title)) Share on LinkedIn
+			a.twitter(href='https://twitter.com/share?url=' + encodeURIComponent(page.permalink) + '&text=My thoughts on ',title='Comment via twitter') Comment via twitter
+			a.linked_in(href='http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(page.permalink) + '&title=' + encodeURIComponent(page.title),title='Share on LinkedIn') Share on LinkedIn
