@@ -1,5 +1,5 @@
 title: "Occupational Hazard"
-date: 2015-01-01 16:24:44
+date: 2015-02-01 16:24:44
 tags:
 	- fugacious
 id: 44
