@@ -10,3 +10,9 @@ I've been testing software since 2001, and am currently working with an awesome 
 I like figuring out how things work...and don't work.  Part of that is figuring out how the team works, and how, when, and where I can make positive contributions.
 
 I love to run, do yoga, mountain bike (although I am currently (and sadly) bike-less), hike, read, and learn.  I hope to add writing to that list.  Let's see how it goes.
+
+<a href="https://twitter.com/testacious" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @testacious</a>
+
+I tweet on Fridays!
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
