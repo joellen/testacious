@@ -7,12 +7,14 @@ html
 		meta(charset='utf-8')
 		| !{css('css/style.css')}
 	body
+		include _logo.svg
 		input#site_nav_active(type='checkbox')
 		nav#site_nav
 			include _site_nav.jade
 		#main
 			header#header
 				h1: a(href=url_for())
+					svg.logo: use(xlink:href="#logo")
 					strong#testacious test
 					span.acious acious
 				label(for='site_nav_active') Open Page Naviagtion
