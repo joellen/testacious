@@ -6,9 +6,12 @@ featured_image: dandelion.jpg
 ---
 I felt quite defiant in my last post "Ripe for Revolution". Like all good ideas, however, my thoughts were far from original.  At about the same time, Christin Weidemann ran a session at STPCon Spring 2015 called [Let’s Start a Test Revolution – A Team-Based Approach to Test Innovation](http://www.stpcon.com/sessions/lets-start-a-test-revolution-a-team-based-approach-to-test-innovation/). I didn't attend, and I don't know Christin,  but I'm super curious about her ideas.  New item on my to-do list...
 
+Drowning
+========
+
 Lately I've been thinking about the boundaries we as testers tend to accept on our teams.  Perceived boundaries, or rigid role assignments, can keep us from learning or exploring outside of our comfort zone.  This **not my job** mentality, or in some cases, **not your job** mentality, can lead to a diffusion of responsibility that erodes team potential.  The Houstonia highlighted [diffusion of responsibility](http://www.houstoniamag.com/news-and-profiles/articles/the-complicated-truth-about-children-and-drowning-april-2015/) as a potential contributor to child drownings -  "having too many supervising adults present might make a drowning more, rather than less, likely."
 
-Pretty shocking.  More babysitters does not equal less risk. That's probably the only reason my kids made it to 18 alive and kicking - too few babysitters! (jk!!)
+Pretty shocking.  More babysitters does not equal less risk. That's probably the only reason my kids survived - too few babysitters -- jk!!
 
 The Houstonia quote vaguely reminded me of the **too many cooks in the kitchen** colloquialism - too many people trying to run the show. Two extremes, yes? No one is responsible or everyone is responsible.  Neither one works.
 
