@@ -14,15 +14,14 @@ I've been testing software for awhile now. Just when I start to think I'm halfwa
 
 Last year, I challenged myself to take voice lessons for 6 weeks. Not because I can sing well — I know I can't. I wanted to know if I could _learn_ to sing well — well enough to overcome my anxiety and fulfill a silly dream of singing karaoke in public. Yes, I know the expectations for karaoke are low, yet I still am terrified. Of humiliation, of being less than perfect, of being judged. I still haven't made it to karaoke yet, but I still practice. I no longer take lessons, now I record myself at home now so I can practice until I feel ready. Baby steps.
 
-_Testacious_ is another way I'm challenging my self.
+_Testacious_ is another way I'm challenging my self.  I'm not very good at organizing and expressing my thoughts and ideas.  I want to get better.
 
-_Testacious_ is a made up word, focusing this blog on my testing philosophy. But it's in good company with all these other real _-acious_ words -- check them out below.
+_Testacious_ is a made up word, focusing this blog on my testing philosophy, practice, and goals. But it's in good company with all these other real _-acious_ words -- check them out below.
 
 * audacious
 * bodacious
 * capacious
 * contumacious
-* curvacious
 * edacious
 * efficacious
 * fallacious

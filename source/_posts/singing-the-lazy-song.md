@@ -55,4 +55,4 @@ Being lazy on mundane, rote tasks gives me more time to explore, which is my pri
 
 [Mindmup](https://www.mindmup.com/#m:new) - I love mindmapping, and would love to find a way to translate mindmaps into test charters in my tool of choice.
 
-That's all for now!  Thanks for reading!
+Thanks for listening!
