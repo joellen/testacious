@@ -45,7 +45,7 @@ A fluid tester learns enough about other team specializations to be supportive a
 
 A fluid tester looks for across the whole team for opportunities to support every aspect of the product.
 
-## Mother May I
+## Mother, May I?
 
 Most teams fall somewhere in between.
 
