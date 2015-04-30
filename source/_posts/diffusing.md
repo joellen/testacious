@@ -21,9 +21,7 @@ The Houstonia highlighted [diffusion of responsibility](http://www.houstoniamag.
 
 Pretty shocking.  More babysitters does not equal less risk. That's probably the only reason my kids survived to adulthood.
 
-The Houstonia quote vaguely reminded me of the **too many cooks in the kitchen** colloquialism - too many people trying to run the show.  No one is responsible or everyone is responsible.  As usual, extremes Neither one works.
-
-What's at the opposite end of the spectrum?
+The Houstonia quote vaguely reminded me of the **too many cooks in the kitchen** colloquialism - too many people trying to run the show.  No one is responsible or everyone is responsible.  As usual, neither extreme is ideal.
 
 ## Roles and Responsibilities
 
