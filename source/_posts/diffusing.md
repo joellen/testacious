@@ -43,7 +43,9 @@ My interpretation of agile principles is on the idealistic side, particularly wh
 
 > A team driven by curiosity and commitment can come up with innovative solutions that get them in the Gartner magic quadrant.
 
-A fluid tester learns enough about other team specializations to be supportive and contributory to those roles.  A fluid tester understands the challenges each area of the product faces, whether it's business goals that product management must meet, technology limitations imposed by hosting providers on developers, or corporate branding on marketing/design materials, and looks for whole team opportunities to support each aspect of the product.
+A fluid tester learns enough about other team specializations to be supportive and contributory to those roles.  A fluid tester understands the challenges each area of the product faces. Whether it's business goals that product management must meet, or technology limitations imposed by hosting providers on developers, or event corporate branding on marketing/design materials.
+
+A fluid tester looks for across the whole team for opportunities to support every aspect of the product.
 
 ## Mother May I
 
