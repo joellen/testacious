@@ -10,13 +10,20 @@ I felt like quite the badass after writing my last post "{% post_link time-for-i
 
 ## Drowning?
 
-In my experience, testers tend to accept the boundaries on the contributions they can make to a team.  We're pretty responsible folk, so we do the job we're paid to do.  However, perceived boundaries, or rigid role assignments, can keep us from learning or exploring outside of our comfort zone.  This **not my job** mentality, or in some cases, **not your job** mentality, can lead to a diffusion of responsibility that erodes team potential.
+In my experience, testers tend to accept the boundaries on the contributions they can make to a team.  We're pretty responsible folk, so we do the job we're paid to do.  However, perceived boundaries, or rigid role assignments, can keep us from learning or exploring outside of our comfort zone.  This **not my job** mentality -- or in some cases, **not your job** mentality -- can lead to a diffusion of responsibility that erodes team potential.
 
-The Houstonia highlighted [diffusion of responsibility](http://www.houstoniamag.com/news-and-profiles/articles/the-complicated-truth-about-children-and-drowning-april-2015/) as a potential contributor to child drownings -  "having too many supervising adults present might make a drowning more, rather than less, likely."
+The Houstonia highlighted [diffusion of responsibility](http://www.houstoniamag.com/news-and-profiles/articles/the-complicated-truth-about-children-and-drowning-april-2015/) as a potential contributor to child drownings:
+
+{% blockquote Catherine Matusow, The Complicated Truth About Children and Drowning %}
+"...having too many supervising adults present might make a drowning more, rather than less, likely."
+{% endblockquote %}
+
 
 Pretty shocking.  More babysitters does not equal less risk. That's probably the only reason my kids survived to adulthood.
 
-What's at the opposite end of the spectrum?  The Houstonia quote vaguely reminded me of the **too many cooks in the kitchen** colloquialism - too many people trying to run the show.  No one is responsible or everyone is responsible.  As usual, extremes Neither one works.
+The Houstonia quote vaguely reminded me of the **too many cooks in the kitchen** colloquialism - too many people trying to run the show.  No one is responsible or everyone is responsible.  As usual, extremes Neither one works.
+
+What's at the opposite end of the spectrum?
 
 ## Roles and Responsibilities
 
