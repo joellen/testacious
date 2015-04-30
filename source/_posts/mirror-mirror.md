@@ -22,8 +22,8 @@ On my last team, we successfully implemented a practice of '3 amigos' before dev
 ## Valuable
 Once the work is visible, the question of value comes up. Is this the most important thing I can be working on right now? The less tangible outcomes of test planning, design, and analysis don't fare very well when prioritized against regression testing for a quarterly release or getting a production bug fix out. This quandary reminds me of [Stephen Covey](http://en.wikipedia.org/wiki/Stephen_Covey "Stephen Covey")'s 4 quandrants (oooh, 2 q words in one sentence!) for time management, which make a distinction between important and urgent. Important activities are those that contribute to the achievement of a goal, while urgent activities are those that demand immediate resolution - the drama queens (another q!). Urgent activities are highly visible - everyone is aware of the crisis. The not-so-exciting daily activities tend to get disrupted, until they also become urgent. Covey's advice? Commit time to processes that enable you to do things more quickly or more easily, or ensure that they get done automatically before they become urgent.
 
-## PAD
-One strategy to incorporate test planning, analysis, and design (new acronym -- PAD!) into your important daily workflow - and raise their visibility -  is to involve more team members. While scheduling is initially a challenge, once the team experiences the benefits, they are usually very accommodating.  Here are a few ways to nudge your team into collaborative test activities:
+## P.A.D.
+One strategy to incorporate test Planning, Analysis, and Design (new acronym -- PAD!) into your important daily workflow - and raise their visibility -  is to involve more team members. While scheduling is initially a challenge, once the team experiences the benefits, they are usually very accommodating.  Here are a few ways to nudge your team into collaborative test activities:
 
 1.  Help your design team with user testing.
 
