@@ -25,10 +25,22 @@ Once the work is visible, the question of value comes up. Is this the most impor
 ## PAD
 One strategy to incorporate test planning, analysis, and design (new acronym -- PAD!) into your important daily workflow - and raise their visibility -  is to involve more team members. While scheduling is initially a challenge, once the team experiences the benefits, they are usually very accommodating.  Here are a few ways to nudge your team into collaborative test activities:
 
-1.  Help your design team with user testing.  Starting a dialog with designers early in feature development will give you lots of test ideas that you can then validate with the design team.
-2.  Join a developer pair when they're writing unit tests.  You'll learn a lot about how the code is structured and be able to skip manual tests that duplicate unit tests.  You'll also share some of the pain of writing unit tests.
-3.  Continuously groom your test backlog the same way product owners groom the story backlog.  Add tests to stories, add stories about test activities, write exploratory charters as tests for epics or releases, add chores for test infrastructure and data enhancements.  If it makes sense, schedule a weekly test grooming session with your team to review your test backlog.
-4.  Pitch in with your support team.  Set aside an hour a day to investigate potential bugs, offer workarounds for existing bugs, or notify customers of fixed bugs.  Having direct contact with customers will enrich your test scenarios with real life examples.
+1.  Help your design team with user testing.
+
+	Starting a dialog with designers early in feature development will give you lots of test ideas that you can then validate with the design team.
+
+2.  Join a developer pair when they're writing unit tests.
+
+	You'll learn a lot about how the code is structured and be able to skip manual tests that duplicate unit tests.  You'll also share some of the pain of writing unit tests.
+
+3.  Continuously groom your test backlog.
+
+	 Treat your test backlog the same way product owners groom the story backlog. Add tests to stories, add stories about test activities, write exploratory charters as tests for epics or releases, add chores for test infrastructure and data enhancements.  If it makes sense, schedule a weekly test grooming session with your team to review your test backlog.
+
+4.  Pitch in with your support team.
+
+	Set aside an hour a day to investigate potential bugs, offer workarounds for existing bugs, or notify customers of fixed bugs.  Having direct contact with customers will enrich your test scenarios with real life examples.
+
 Again, the magic happens when these activities become habit and part of the accepted workflow and team conversations.
 
 Thanks for listening!
