@@ -27,11 +27,15 @@ What's at the opposite end of the spectrum?
 
 ## Roles and Responsibilities
 
-What does work?  Designated roles and responsibilities are often recommended as an antidote to diffusion of responsibility. Hence lifeguards at swimming pools.  Assuming a task falls within a designated area of responsibility, then someone will assume responsibility for that task.  Managers will manage, developers will develop, and testers will test.  Sounds very efficient, doesn't it?
+So, what does work?
 
-A static team structure with rigid roles and responsibilities can be very effective.  Work gets cranked out, like a machine.  Specialists get really good at what they do. Testers can specialize also - in automation, in manual testing, in mobile, in performance.
+Designated roles and responsibilities are often recommended as an antidote to diffusion of responsibility, e.g. lifeguards at swimming pools.  Assuming a task falls within a designated area of responsibility, then someone will assume responsibility for that task.  Managers will manage, developers will develop, and testers will test.  Sounds very efficient, doesn't it?
 
-Do designated roles and responsibilities also work for the opposite problem - too many cooks?  I suspect so, once a leader is recognized and accepted.  Then the leader organizes and directs work.  Ideally (there's that word again!), the leader guides rather than dictates, allowing the team to self-organize around goals and deliverables and constraints.  At work, organizational hierarchy, and hiring and firing responsibility, makes leadership and decision-making clear, even in ostensibly flat organizations.
+A static team structure with rigid roles and responsibilities can be very effective.  Work gets cranked out, like a machine.  Specialists get really good at what they do. Testers can specialize also, e.g. in automation, in manual testing, in mobile, in performance.
+
+Do designated roles and responsibilities also work for the opposite problem -- too many cooks?
+
+I suspect so; once a leader is recognized and accepted. Then, the leader organizes and directs work.  Ideally -- there's that word again! -- the leader guides rather than dictates, allowing the team to self-organize around goals and deliverables and constraints.  At work, organizational hierarchy, and hiring and firing responsibility, makes leadership and decision-making clear, even in ostensibly flat organizations.
 
 ## Fluidity
 
