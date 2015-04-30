@@ -4,7 +4,8 @@ tags:
   - spacious
 featured_image: dandelion.jpg
 ---
-I felt like quite the badass after writing my last post "{% post_link time-for-innovation Ripe for Revolution %} ". Yep, I was a one-woman change agent for the entire testing profession. I was changing the world!  In reality, my ego had commandeered the ship and was sailing for a figurative cliff.  My thoughts are far from original.  At about the same time, Christin Weidemann ran a session at STPCon Spring 2015 called [Let’s Start a Test Revolution – A Team-Based Approach to Test Innovation](http://www.stpcon.com/sessions/lets-start-a-test-revolution-a-team-based-approach-to-test-innovation/). Lots of other folks are talking about the similar ideas.  Which is a good thing!  Let's do it.
+I felt like quite the badass after writing my last post "{% post_link time-for-innovation Ripe for Revolution %} ". Yep, I was a one-woman change agent for the entire testing profession. I was changing the world!  In reality, my ego had commandeered the ship and was sailing for a figurative cliff.  My thoughts are far from original.  At about the same time, [Christin Weidemann](https://twitter.com/c_wiedemann) ran a session at STPCon Spring 2015 called [Let’s Start a Test Revolution – A Team-Based Approach to Test Innovation](http://www.stpcon.com/sessions/lets-start-a-test-revolution-a-team-based-approach-to-test-innovation/). Lots of other folks are talking about the similar ideas.  Which is a good thing!  Let's do it.
+
 > ...my ego had commandeered the ship and was sailing for a figurative cliff.
 
 ## Drowning?
