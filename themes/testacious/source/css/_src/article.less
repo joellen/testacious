@@ -27,6 +27,7 @@ article {
   }
 
   em { font-style: italic; }
+  strong { font-weight: 700; }
 
   blockquote {
     &:extend(.h3);
@@ -36,6 +37,12 @@ article {
     background-color:  @clr-gray-l2;
     color: white;
     > :last-child { margin-bottom: 0; }
+
+    > footer { text-align: right; }
+
+    > footer > strong + cite::before {
+      content: ", "
+    }
   }
 
   footer {
