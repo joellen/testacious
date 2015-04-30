@@ -39,7 +39,7 @@ I suspect so; once a leader is recognized and accepted. Then, the leader organiz
 
 ## Fluidity
 
-My interpretation of agile principles is on the idealistic side of the scale, particularly where self-organization is concerned. The team collectively assumes responsibility for delivery.  Everyone gets a voice in what gets delivered and how that happens.  In my ideal world, although team members have expertise in a particular area, the boundaries between areas are not rigid.  A fluid team organization nurtures innovative solutions and skill development - a team driven by curiosity and commitment can come up with innovative solutions that get them in the Gartner magic quadrant.
+My interpretation of agile principles is on the idealistic side, particularly where self-organization is concerned. The team collectively assumes responsibility for delivery.  Everyone gets a voice in what gets delivered and how that happens.  In my world, although team members have expertise in a particular area, the boundaries between areas are not rigid.  A fluid team organization nurtures innovative solutions and skill development. A team driven by curiosity and commitment can come up with innovative solutions that get them in the Gartner magic quadrant.
 
 > A team driven by curiosity and commitment can come up with innovative solutions that get them in the Gartner magic quadrant.
 
