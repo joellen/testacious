@@ -19,6 +19,10 @@ article {
 
   ul>li,ol>li { margin: @margin-base / 4 0; }
 
+  ol>li:first-line {
+    font-weight: 700;
+  }
+
   hr {
     margin: (@margin-base * 4) (@margin-base * -1);
     height: 1px;
@@ -27,6 +31,7 @@ article {
   }
 
   em { font-style: italic; }
+  strong { font-weight: 700; }
 
   blockquote {
     &:extend(.h3);
@@ -36,6 +41,12 @@ article {
     background-color:  @clr-gray-l2;
     color: white;
     > :last-child { margin-bottom: 0; }
+
+    > footer { text-align: right; }
+
+    > footer > strong + cite::before {
+      content: ", "
+    }
   }
 
   footer {
