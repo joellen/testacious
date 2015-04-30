@@ -49,8 +49,9 @@ A fluid tester looks for across the whole team for opportunities to support ever
 
 ## Mother May I
 
-Most teams fall somewhere in between, and will tolerate a bit of experimentation on the part of testers _(I know - I started with revolution and now I've talked myself down to 'a bit of experimentation' - see what I'm talking about!!)_.  So whether they are baby steps or giant steps, here are a few steps towards fluidity:
+Most teams fall somewhere in between.
 
+They will tolerate a bit of experimentation on the part of testers _(I know -- I started with revolution and now I've talked myself down to 'a bit of experimentation' -- see what I'm talking about!!)_.  Whether baby steps or giant steps, here are some steps towards fluidity:
 1.  Find bugs that matter.  Trust me, the designers will make sure things are pixel perfect.  Bugs that affect 1% of your users should only go in your backlog if a developer can fix them in 1% of their time.
 
 1.  Product manage your testing infrastructure and tools.  Need a new environment?  Break it down into stories and work with your devs to own some of the work involved.
