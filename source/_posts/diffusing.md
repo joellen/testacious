@@ -19,7 +19,7 @@ The Houstonia highlighted [diffusion of responsibility](http://www.houstoniamag.
 {% endblockquote %}
 
 
-Pretty shocking.  More babysitters does not equal less risk. That's probably the only reason my kids survived to adulthood.
+Pretty shocking.  More babysitters does not equal less risk. One attentive person is less risky than a crowd of distracted people.
 
 The Houstonia quote vaguely reminded me of the **too many cooks in the kitchen** colloquialism - too many people trying to run the show.  No one is responsible or everyone is responsible.  As usual, neither extreme is ideal.
 
@@ -49,7 +49,7 @@ A fluid tester looks for across the whole team for opportunities to support ever
 
 Most teams fall somewhere in between.
 
-They will tolerate a bit of experimentation on the part of testers _(I know -- I started with revolution and now I've talked myself down to 'a bit of experimentation' -- see what I'm talking about!!)_.  Whether baby steps or giant steps, here are some steps towards fluidity:
+They will tolerate a bit of experimentation on the part of testers.  Whether baby steps or giant steps, here are some steps towards fluidity:
 
 1. Find bugs that *matter*.
 
@@ -61,11 +61,11 @@ They will tolerate a bit of experimentation on the part of testers _(I know -- I
 
 1.  *Know* your developer environment.
 
-	Rails? .Net?  Go to code school and learn the basics.  Knowin how an app is built can help you find common issues. _(Ever missed a route?)_
+	Rails? .Net?  Go to code school and learn the basics.  Knowing how an app is built can help you find common issues.
 
 1.  Give *insightful feedback* on mockups and prototypes.
 
-	Understand the malleable parts that can be iterated on vs. the backbone of the design.  Nitpicky feedback in early stages is not helpful.
+	Distinguish between the malleable parts that can be iterated on and the backbone of the design.  Nitpicky feedback in early stages is not helpful.
 
 1.  Understand *the goals* of your business.
 
