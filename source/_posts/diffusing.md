@@ -52,15 +52,26 @@ A fluid tester looks for across the whole team for opportunities to support ever
 Most teams fall somewhere in between.
 
 They will tolerate a bit of experimentation on the part of testers _(I know -- I started with revolution and now I've talked myself down to 'a bit of experimentation' -- see what I'm talking about!!)_.  Whether baby steps or giant steps, here are some steps towards fluidity:
-1.  Find bugs that matter.  Trust me, the designers will make sure things are pixel perfect.  Bugs that affect 1% of your users should only go in your backlog if a developer can fix them in 1% of their time.
 
-1.  Product manage your testing infrastructure and tools.  Need a new environment?  Break it down into stories and work with your devs to own some of the work involved.
+1. Find bugs that *matter*.
 
-1.  Know your developer environment.  Rails? .Net?  Go to code school and learn the basics.  Knowin how an app is built can help you find common issues. _(Ever missed a route?)_
+	Trust me, the designers will make sure things are pixel perfect.  Bugs that affect 1% of your users should only go in your backlog if a developer can fix them in 1% of their time.
 
-1.  Give insightful feedback on mockups and prototypes.  Understand the malleable parts that can be iterated on vs. the backbone of the design.  Nitpicky feedback in early stages is not helpful.
+1. Product manage your testing infrastructure and tools.
 
-1.  Understand the goals of your business and how each feature is intended to impact those goals.  Prioritize testing activities based on the business impact of potential bug areas. Slow performance on a new feature is hard to bounce back from - mobile and web performance are sometimes last in priority.  Move 'em up.
+	Need a new environment?  Break it down into stories and work with your devs to own some of the work involved.
+
+1.  *Know* your developer environment.
+
+	Rails? .Net?  Go to code school and learn the basics.  Knowin how an app is built can help you find common issues. _(Ever missed a route?)_
+
+1.  Give *insightful feedback* on mockups and prototypes.
+
+	Understand the malleable parts that can be iterated on vs. the backbone of the design.  Nitpicky feedback in early stages is not helpful.
+
+1.  Understand *the goals* of your business.
+
+	Know how each feature is intended to impact those goals.  Prioritize testing activities based on the business impact of potential bug areas. Slow performance on a new feature is hard to bounce back from - mobile and web performance are sometimes last in priority.  Move 'em up.
 
 That's all I know for now.  Thanks for listening!
 
