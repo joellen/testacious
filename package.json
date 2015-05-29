@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "hexo": {
-    "version": "3.0.1"
+    "version": "3.1.1"
   },
   "scripts": {
     "css": "cat 'themes/testacious/source/css/_src/index.less' | lessc --include-path='themes/testacious/source/css/_src/' - | autoprefixer -b 'last 2 versions' | cleancss -s > themes/testacious/source/css/style.css"
