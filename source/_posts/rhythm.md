@@ -1,6 +1,7 @@
 
-title: "Get some rhythm"
+title: "Rhythm Is Gonna Get You"
 tags:
+  - perspicacious
 date: 2015-06-14 15:28:24
 categories:
   - Uncategorized
