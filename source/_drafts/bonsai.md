@@ -33,7 +33,7 @@ Not all plants are suited to the careful tending that produces the beauty of the
 
 ##Shokunin
 
-**Shokunin** is a japanese term that means mastery of a profession or craft - roughly translating to craftsmanship or artisanship.  The long path to mastery of bonsai is an example of shokunin.  The short film, [](https://vimeo.com/119134995) is a beautiful introduction to the timeless and beautiful art of bonsai and the shokunin required to reach mastery levels.
+**Shokunin** is a japanese term that means mastery of a profession or craft - roughly translating to craftsmanship or artisanship.  The long path to mastery of bonsai is an example of shokunin.  The short film, [American Shokunin](https://vimeo.com/119134995) is a beautiful introduction to the timeless and beautiful art of bonsai and the shokunin required to reach mastery levels.
 
 A software product is not a work of art, and most of the work we do will not last 10 years, much less hundreds. We can still approach our work with shokunin rather than a sense of ownership.  
 
