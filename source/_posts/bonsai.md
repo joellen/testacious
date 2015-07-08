@@ -13,7 +13,7 @@ Sure, that's an extreme analogy, and most product owners are not the equivalent 
 
 > Words mean things.  **Raj, 2011**
 
-So which words more accurately reflect the role of the team meber who has primary responsibility for researching and proposing products, features, and changes to both?  Product Steward?  Product Nurturer?  Bonsai master?
+So which words more accurately reflect the role of the team member who has primary responsibility for researching and proposing products, features, and changes to both?  Product Steward?  Product Nurturer?  Bonsai master?
 
 A bonsai master is someone who practices the art of bonsai. Most of you probably know that the bonsai is a container-grown plant that is artfully groomed and pruned to look like a miniature version of a full-size specimen.  Bonsai are prized for their aesthetics and bonsai masters are praised for their patience and artistry.  Prized bonsai trees can be hundreds of years old. 
 
