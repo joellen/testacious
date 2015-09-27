@@ -1,0 +1,15 @@
+The Naked Typist
+
+Well, not totally naked all the time.  Boxer briefs mostly.  They are quite comfortable.  But really, why put on pants when only the cat and dog are there to see you?
+
+I do put on pants to take the dog out for a pee and poo.  Weather appropriate pants, even.  It gets cold here.  Which is why I noticed when Bachelor Bob's window was open on a 10 degree day.
+
+Bob has been known to party a bit, so an open window by itself could just be an indication of over-indulgencee in any of his known vices.
+
+Not being the nosy type, however, I didn't go over and knock on his door to make sure everything was OK.  I'd leave that for Eileen, our 2nd floor evil grandmother.  Evil because she is unctuously kind and falsely solicitous, peppering her words with random honeys and dears.  But all she really wants is to live vicariously through you.  The person who gets strangely, quietly excited if you forget who you're talking to for one second and accidentally mention that your daughter is coming to visit and it will be the first time you've seen her in over a year.  To which Eileen asks innocently, "Oh my dear!  Over a year?  Has she been on a mission trip?  Or maybe the Peace Corps?  I heard they're still sending folks to Haiti.  Is she in the Caribbean?  Or one of those new Russian nations?  There is so much turmoil and poverty over there!"
+At which I mentally kicked myself and turned away, tossing a casual "Oops, sorry!  I think I hear my landline ringing.  Could be that Homeland Security finally found me!" which shocked her into silence for a second.
+
+Eileen giggled, delirious with her newfound tidbit.  "Oh you crack me up!  You are SO funny!"
+Me - yep, I'll crack you up - if you only knew the rest of the story.
+But back to Bob.  Why was the bachelor's window open?  So instead of knocking on his door, which would have been the smart thing to do, I wandered after Moose, seeking an unobstructed view into Bob's living room.
+Bob and I had a mutual, un-spoken agreement - I never looked through Bob's uncertainness windows and Bob never acknowledged my existence, even when his party's spilled over to the adjacent balcony.  I love that mofo - he knows how to mind his own business, for sure.  Which is why I felt a twinge of disloyalty when I stopped and oh so casually stretched and twisted in the general direction of Bob's window.  Sofa was clear.  No naked, passed out Bob there.  I took 2 steps backward and had a clear view into Bob's office.  Not the whole room, just enough to see if he was at his desk or not.  And yes, Bob was already up and at 'em.  I breathed a sigh of relief.  I hadn't realized I was holding my breath.  I could see bare feet under the desk, and bare shoulders above, so there was a good chance the rest of Bob was bare also.  Looked like Bob was working.  While naked.  With his window open.  In 10 degree weather. I wondered if Bob had burned something and was airing out the place.  Or maybe he smoked too much weed and needed some fresh air. Either way, not my business.  Time for a nap.
