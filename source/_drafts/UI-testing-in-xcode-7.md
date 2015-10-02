@@ -18,7 +18,8 @@ As I finished the 6th project, I realized I could be adding tests to these proje
 
 I decided to add tests to Project 6b of the tutorial series. It's a simple little application that hand-codes a view rather than using the Storyboard. The app displays 5 labels with text, and adjusts the layout for both portrait and landscape views.  I figured I could at least write some tests that checked the label count and text, and maybe the background color.  Yes, I am setting the bar quite low.
 
-You can find the xcode 6 files for Project 6B on [github](https://github.com/twostraws/HackingWithSwift). Xcode 7 will convert the project to the new Swift syntax for you. The project should run after conversion.  
+You can find the xcode 6 files for Project 6B on [github](https://github.com/twostraws/HackingWithSwift). Xcode 7 will convert the project to the new Swift syntax for you. The project should run after conversion.  Click <command> B to build, and hopefully you'll see the **Build Succeeded** message like I did.  
+
 > Don't forget to make a donation while you're waiting for your files to download!
 
 Once I had my project running, I had to find the test functionality.  I stumbled around quite a bit but eventually found it with the help of the introductory transcript from [WWDC 2015](http://asciiwwdc.com/2015/sessions/406).  Here's a step-by-step:
@@ -32,13 +33,13 @@ Once I had my project running, I had to find the test functionality.  I stumbled
 
 ![enable testability](/users/pivotal/desktop/testability-setting.png)
 
-Whew - that's just the first step.  See what I mean? Xcode is hard!
+Whew - that's just the first step.  See what I mean? Xcode is complicated!
 
 ####Create your test template
 
 1. Open the Test Navigator by clicking the diamand-shaped icon in the navigation bar. 
 ![test navigator](/users/pivotal/desktop/test-navigator.png)
-1. Click the + pluss at the **bottom** of the panel to add a test target.
+1. Click the +  at the **bottom** of the panel to add a test target.
 ![test target](/users/pivotal/desktop/test-target.png)
 1. Choose New UI Test Target.
 ![UI test target](/users/pivotal/desktop/UI-test-target.png)
@@ -52,10 +53,19 @@ Now we're in test territory.  Doesn't it feel good?
 ####Recording some stuff
 
 Xcode7 has built-in recording, similar to Instruments in previous versions but now integrated into XCode.  The easiest way to see how it works is to use it.
-2.  Place your cursor in the body of the testExample function.
+
+1.  Place your cursor in the body of the testExample function.
 2.  Click the round red button on the bottom bar below your example test code.  Your app should build automatically and launch the simulator.  Depending on how your windows are arranged, the simulator may not be visible.
 3.  Navigate to the simulator and click some labels.
 ![record](/users/pivotal/desktop/record.png)
+4. Click the red button again to stop recording.
+
+Check out your awesome codes!  You did that!  
+
+####Adding some real codes
+
+Recording is handy-dandy for 
+
 
 ![staticTexts](/users/pivotal/desktop/staticTexts.png)
 
