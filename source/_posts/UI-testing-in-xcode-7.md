@@ -1,5 +1,5 @@
 date: 2015-10-03 17:52:31
-title: xcoding
+title: Xcoding
 featured_image: second-test.png
 tags:
  - edacious
