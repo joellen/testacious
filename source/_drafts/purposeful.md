@@ -1,6 +1,6 @@
-title: Mapping before learning
+title: Mapped learning
 date: 2015-11-04 16:20:10
-featured_image: map.jpg
+featured_image: 
 tags:
   - edacious
 ---
@@ -8,10 +8,9 @@ tags:
 
 I switched teams recently, and due to some personal commitments, I had 2 weeks between jobs.  I decided to be uber-productive and focus on learning as much as I could in my down time.
 
-I started with lots of enthusiasm but not much of a plan. My usual method of learning is as a response to some problem I encounter at work, and for the time being, I had no work.  I started haphazardly clicking tweeted links to dig into the latest hot topics in testing.  I quickly realized that this shotgun approach would not provide any retained knowledge - just voluminous retweets and favorites.
+I started with lots of enthusiasm but not much of a plan. My usual method of learning is as a response to some problem I encounter at work, and for the time being, I had no work.  I started haphazardly clicking tweeted links to dig into the latest hot topics in testing.  I quickly realized that this shotgun approach would not provide any retained knowledge - just voluminous retweets and favorites (this was before 'like').
 
-##Skills mapping
-
+## Skills mapping 
 AS I came to this realization, I stumbled onto Dan North's [Introduction to Delivery Mapping](https://skillsmatter.com/skillscasts/5641-introducing-delivery-mapping) presentation.  If Dan North is teaching something, then I could probably benefit from learning that thing, right?  I decided to 'give it a go' <insert British accent>.  Buried in the middle of his presentation was a short section on Skills Mapping - not a new concept, but one that illuminated a light bulb over my head. 
 
 
@@ -42,6 +41,6 @@ Next I was ready for some hands-on learning, so I turned to [Runscope](https://w
 
 I was pleasantly surprised to find a ghost lurking on runscope - actually, Ghost Inspector.  Ghost Inspector is a simple UI testing tool that records tests via a Chrome extension, and then you edit the test to add assertions.  You can schedule your ghost inspector tests to run continuously. Hidden in its capabilities is the ability to compare screenshots across test runs. Yay for adoption of [visual diffing](http://www.testacious.com/2015/09/27/visual-regression-testing/).
 
-And then, sadly, I was out of dedicated learning time.  I took some time to reflect on my last team experince and  percolate on my personal priorities with my new team, and will write about those soon.
+And then, sadly, I was out of dedicated learning time.  I took some time to reflect on my last team experience and  percolate on my personal priorities with my new team, and will write about those soon.
 
 Thanks for reading!
