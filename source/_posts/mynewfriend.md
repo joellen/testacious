@@ -1,9 +1,8 @@
 title: "New BFF"
 date: 2016-01-26 12:54:19
 tags:
-  - pugnacious
-  - hellacious
-featured_image: images.jpeg
+  - tenacious
+featured_image: tomato.jpg
 ---
 
 Meet my new BFF-- Pomello!
