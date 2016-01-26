@@ -9,7 +9,7 @@ Rapid releases are the new normal.  On my current team, we release several times
 
 Our team has a long-standing practice of manual regression testing before a release, with a set of regression check lists to be completed before we pull the trigger on a release. Pretty standard, right?  Lots of teams do this.  However, there's very little room for manual regression testing in a continuous release cycle.  It's a challenge to replace the manual steps with something else that provides the same confidence that comes from the 'eyes on the app' step.
 
-##Enter visual diffing tools
+## Enter visual diffing tools
 
 I know, I know...these guys have been around for awhile and never amounted to anything.  Writing an algorithm that compares pixels between two html pages is CS 101.  Not rocket-science.  Combining visual diffing with other tools into a useful workflow is a harder problem, but several folks have been dabbling in this area.  
 
@@ -20,7 +20,7 @@ You can get consistent and complete information about visual changes and regress
 - visual differ (which I like to call a **Comparatator**)
 - some kind of approval process
 
-##In the flow
+## In the flow
 
 One possible workflow involves comparing a release candidate to the current production system.  The flow might look something like this:
 
@@ -33,7 +33,7 @@ One possible workflow involves comparing a release candidate to the current prod
 
 Other flows are possible. For example, a simple daily run of key production screenshots that is independent of your release cycle may also catch subtle regressions.  
 
-##Change happens
+## Change happens
 
 If you're working in a release cycle, you **expect** differences. The secret sauce is in knowing what changes are expected and then find a balance between these two efforts:
 
@@ -42,7 +42,7 @@ If you're working in a release cycle, you **expect** differences. The secret sau
 
 Most diffing tools have some mechanism for hiding volatile elements or excluding them from the diff.  Judicious use of these mechanisms can keep data-sensitive elements from providing false positives and reduce the number of differences found.
 
-##Tools
+## Tools
 
 Chris Rebert published an annotated list of the current tools in this space on [github](https://gist.github.com/cvrebert/adf91e429906a4d746cd).  As part of a spring Hack Week, I played with a subset of these, including:
 
@@ -52,19 +52,19 @@ Chris Rebert published an annotated list of the current tools in this space on [
 * [Depicted](https://github.com/bslatkin/dpxdt)
 
 
-###Percy
+### Percy
 At the time I was looking (May 2015), Percy.io was not quite ready for prime time in that time period, so I did not actually use Percy.  Like most of the SAAS versions of visual diffing tools, Percy takes screenshots for you. If the screenshots match your baseline, then you can 'approve' the set of screenshots to create a new baseline.  Percy has a pretty UI, and integrates with multiple CI systems.  It also has Github pull request integration. I plan to re-visit Percy soon, since pricing has been announced.
 
-###Wraith
+### Wraith
 Wraith is bare bones and runs from the command line. Wraith does not include an approval framework, so while it's easy to set up and run, managing the flow is very manual.  Wraith is best-suited for static sites that do not change frequently.
 
-###Applitools Eyes
+### Applitools Eyes
 Applitools Eyes is a full-featured platform that does everything it advertises.  You write tests using their SDK in your current automation environment, and Applitools Eyes will run your tests across a multitude of browsers and resolutions, and diff them accordingly.  You can even run a diff of a web page against a mockup to make sure your implementation matches the design. Applitools Eyes was easy to setup and run, but does not provide integration with CI tools.
 
-###Depicted
+### Depicted
 Depicted is an open-source diffing tool that you install and run on your own server.   Depicted has a release approval workflow that, while basic, provides some structure for consecutive runs. The README in the github repo (see link above) links to a video that describes how the Google Consumer Surveys team uses Depicted in their continuous release process.
 
-##Wrapping up
+## Wrapping up
 
 Depicted runs on Google App Engine, and a developer on our team kindly set up an instance for us.  We are currently trying two approaches:
 
