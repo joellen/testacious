@@ -10,9 +10,9 @@ I switched teams recently, and due to some personal commitments, I had 2 weeks b
 
 I started with lots of enthusiasm but not much of a plan. My usual method of learning is as a response to some problem I encounter at work, and for the time being, I had no work.  I started haphazardly clicking tweeted links to dig into the latest hot topics in testing.  I quickly realized that this shotgun approach would not provide any retained knowledge - just voluminous retweets and favorites.
 
-##Skills mapping
+## Skills mapping
 
-AS I came to this realization, I stumbled onto Dan North's [Introduction to Delivery Mapping](https://skillsmatter.com/skillscasts/5641-introducing-delivery-mapping) presentation.  If Dan North is teaching something, then I could probably benefit from learning that thing, right?  I decided to 'give it a go' <insert British accent>.  Buried in the middle of his presentation was a short section on Skills Mapping - not a new concept, but one that illuminated a light bulb over my head. 
+As I came to this realization, I stumbled onto Dan North's [Introduction to Delivery Mapping](https://skillsmatter.com/skillscasts/5641-introducing-delivery-mapping) presentation.  If Dan North is teaching something, then I could probably benefit from learning that thing, right?  I decided to 'give it a go' <insert British accent>.  Buried in the middle of his presentation was a short section on Skills Mapping - not a new concept, but one that illuminated a light bulb over my head. 
 
 
 ## My personal short-term learning plan
