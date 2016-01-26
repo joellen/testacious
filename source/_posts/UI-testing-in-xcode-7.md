@@ -15,7 +15,7 @@ Unfortunately, we were stymied from the start because our Tracker app was not qu
 
 So here we are, almost October, and just now dipping back into iOS automation.
 
-###Spells and incantations
+### Spells and incantations
 
 One of the first obstacles we faced was XCode itself.  Xcode is a typical developer IDE - innumerable shortcuts and hidden panels that are revealed only after you invoke the secret spell and incantation.
 
@@ -23,7 +23,7 @@ In my personal time, I have been working through the [Hacking with Swift](https:
 
 As I finished the 6th project, I realized I could be adding tests to these projects.  The projects are quite simple, usually focusing on one technique or principle, so adding tests would be an ideal way to learn to write tests at the same time.
 
-###And off we go!
+### And off we go!
 
 I decided to add tests to Project 6b of the tutorial series. It's a simple little application that hand-codes a view rather than using the Storyboard. The app displays 5 labels with text, and adjusts the layout for both portrait and landscape views.  I figured I could at least write some tests that checked the label count and text, and maybe the background color.  Yes, I am setting the bar quite low.
 
@@ -33,7 +33,7 @@ You can find the xcode 6 files for Project 6B on [github](https://github.com/two
 
 Once I had my project running, I had to find the test functionality.  I stumbled around quite a bit but eventually found it with the help of the introductory transcript from [WWDC 2015](http://asciiwwdc.com/2015/sessions/406).  Here's a step-by-step:
 
-####Enable testability for your app
+#### Enable testability for your app
 1. Go to the Project Navigator (leftmost icon that looks like a folder).
 1. Choose the topmost item, which is your project.  The center panel should open with a horizontal list of headings.
 1. Choose Build Settings from the headings.
@@ -44,7 +44,7 @@ Once I had my project running, I had to find the test functionality.  I stumbled
 
 Whew - that's just the first step.  See what I mean? Xcode is complicated!
 
-####Create your test template
+#### Create your test template
 
 1. Open the Test Navigator by clicking the diamand-shaped icon in the navigation bar.
 
@@ -64,7 +64,7 @@ Whew - that's just the first step.  See what I mean? Xcode is complicated!
 
 Now we're in test territory.  Doesn't it feel good?
 
-####Recording some stuff
+#### Recording some stuff
 
 Xcode7 has built-in recording, similar to Instruments in previous versions but now integrated into XCode.  The easiest way to see how it works is to use it.
 
@@ -76,7 +76,7 @@ Xcode7 has built-in recording, similar to Instruments in previous versions but n
 
 Check out your awesome codes!  You did that!
 
-####Adding some real codes
+#### Adding some real codes
 
 Your recording instantly shows you how XCUITesting references elements. In my recording, you can see that our labels are StaticTexts elements, identified as unique by their text.
 ![staticTexts](staticTexts.png)
@@ -99,6 +99,6 @@ Notice that when we index our collection of elements, we have a slightly differe
 
 Cmd-U to run that.  Now change the expected values to fail the test.  And back again for passing.  WooHoo!
 ![second test](second-test.png)
-####Success
+#### Success
 Two Xcode UI tests!!! I considered writing a third test to verify the background color for each label.  However, background color is not supported as an element property...yet. The lack of basic color properties on elements may limit the types of tests you can write.  I'll do a bit more research and follow up on supported properties soon.
 
