@@ -1,11 +1,11 @@
-title: "New BFF"
-date: 2016-01-26 12:54:19
+title: BFF
+date: 2016-01-25 17:51:01
 tags:
   - tenacious
 featured_image: tomato.jpg
 ---
 
-## Meet my new BFF-- [Pomello] (https://chrome.google.com/webstore/detail/pomello/ahjnfakocpfoocnncbgmondnnnlfjide?hl=en)!
+## Meet my new BFF-- [Pomello](https://chrome.google.com/webstore/detail/pomello/ahjnfakocpfoocnncbgmondnnnlfjide?hl=en)!
 
 Pomello is NOT the latest yoga trend, or an exotic fruit.  Pomello is a neat little Pomodoro timer that runs as a Chrome extension and integrates with Trello.  I discovered Pomello when I was looking for a way to simplify and prioritize my work in JIRA.  I was NOT looking for a pomodoro timer - but now that I'm using it, I feel like Pomello is my new BFF.
 
@@ -48,4 +48,5 @@ Sometimes I'm amazed at how little I get done in a cycle - setup for a particula
 
 Finally, here's my Trello board. As mentioned, I have not spent much time in Trello beyond setting up boards and lists.  Pomello works well on its own to get me in the zone.
 ![](Trello-board.png)
+
 
