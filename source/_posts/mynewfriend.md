@@ -40,9 +40,11 @@ Getting in the pomodoro groove takes some mental discipline - discipline to stop
 
 ### Welcome Surprises
 
+Using Pomello/pomodoro technicques has had some side benefits that I did not expect.
+
 As a remote team worker new to working on my own, I struggle sometimes to organize my day and prioritize my work.  Pomello and pomodoro techniques give my day a rhythm - periods of focus time interspersed with shorter periods of team interaction.
 
-Sometimes I'm amazed at how little I get done in a cycle - setup for a particular test, deploying builds, etc.  all take time that is usually hidden.  With Pomello, It's easy to jot down notes so I can see that I *am* making progress, although the progress is not very visible.
+Also, sometimes I'm amazed at how little I get done in a cycle - setup for a particular test, deploying builds, etc.  all take time that is usually hidden.  With Pomello, It's easy to jot down notes so I can see that I *am* making progress, although the progress is not very visible.
 
 ### The big reveal
 
