@@ -40,7 +40,7 @@ Getting in the pomodoro groove takes some mental discipline - discipline to stop
 
 ### Welcome Surprises
 
-Using Pomello/pomodoro technicques has had some side benefits that I did not expect.
+Using Pomello/pomodoro techniques has had some side benefits that I did not expect.
 
 As a remote team worker new to working on my own, I struggle sometimes to organize my day and prioritize my work.  Pomello and pomodoro techniques give my day a rhythm - periods of focus time interspersed with shorter periods of team interaction.
 
