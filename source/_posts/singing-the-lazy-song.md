@@ -15,7 +15,7 @@ My intention for 2015 -- well, actually, for all time -- is to be a lazy tester.
 
 I use this guy to create test data quickly.  I can save a set of POSTs to create data as a collection and quickly add data to any build. Take a look.
 
-[![Postman screen shot](postman.png)](postman.png)
+{% asset_figure_img postman.png Postman screen shot %}
 
 I can also run a quick API query to validate what I see on the screen, which is particularly helpful with reports.
 
@@ -29,7 +29,7 @@ CloudApp is a cloud storage tool that lets you upload screen shots and screen re
 
 SpeedLimit is a handy little system tool on Mac that will slow your connection speed.  Since I do most of my testing on local machines, I don't get the same response times as in-the-wild testing. Slower connection speeds can uncover problems with slow javascript execution or access of remotely stored objects. SpeedLimit lets me show things down so that I can experience my customer's pain.
 
-[![SpeedLimit screenshot](speedlimit.png)](speedlimit.png)
+{% asset_figure_img speedlimit.png SpeedLimit screenshot %}
 
 ## [Chrome Developer tools](https://developer.chrome.com/devtools)
 
@@ -41,7 +41,7 @@ New kid on the block, Bug Magnet, was just released.  It's a Chrome extension (
 
 Here's some JS injection Bug Magnet generated for an Amazon search field:
 
-[![BugMagnet screenshot](bugmagnet.png)](bugmagnet.png)
+{% asset_figure_img bugmagnet.png BugMagnet %}
 
 I know you can do this on your own, but why?  Be lazy - let BugMagnet do it for you.
 

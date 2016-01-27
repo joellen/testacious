@@ -40,7 +40,7 @@ Once I had my project running, I had to find the test functionality.  I stumbled
 1. Use the search box to search for the 'testability' setting.
 2. Enable testability for both Debug and Release builds.
 
-  ![enable testability](testability-setting.png)
+{% asset_figure_img testability-setting.png enable testability %}
 
 Whew - that's just the first step.  See what I mean? Xcode is complicated!
 
@@ -48,19 +48,19 @@ Whew - that's just the first step.  See what I mean? Xcode is complicated!
 
 1. Open the Test Navigator by clicking the diamand-shaped icon in the navigation bar.
 
-  ![test navigator](test-navigator.png)
+  {% asset_img test-navigator.png test navigator %}
 1. Click the +  at the **bottom** of the panel to add a test target.
 
-  ![test target](test-target.png)
+  {% asset_img test-target.png test target %}
 1. Choose New UI Test Target.
 
-  ![UI test target](UI-test-target.png)
+  {% asset_img UI-test-target.png UI test target %}
 1. Choose the iOS UI Testing Bundle template.
 
-  ![template](template.png)
+  {% asset_img template.png template %}
 1. Almost there! Add options for your template - product name, organization name, and bundle identifier. Don't forget to choose Swift as your language!  Most of these should default from your project settings.
 
-  ![options](options.png)
+  {% asset_img options.png options %}
 
 Now we're in test territory.  Doesn't it feel good?
 
@@ -79,18 +79,20 @@ Check out your awesome codes!  You did that!
 #### Adding some real codes
 
 Your recording instantly shows you how XCUITesting references elements. In my recording, you can see that our labels are StaticTexts elements, identified as unique by their text.
-![staticTexts](staticTexts.png)
+
+{% asset_figure_img staticTexts.png staticTexts %}
 
 For our first test, let's make sure we have 5 labels. We can edit our recorded code to find all of the labels as a collection, and then use the assert class XCTAssert to see if the actual number of elements in the collection matches our expected number of labels.
 
-![first assert](first-assert.png)
+{% asset_figure_img first-assert.png first assert %}
+
 > Shortcut alert! Press cmd-U to run tests.
 
 Run the test.  Xcode tells you when your test passes, and also conveniently puts a small green checkmark next to your test in the test navigator.
 
 To test the test, change your expected value to 10 and re-run the test. Watch it fail, so you know what it looks like, and then change the value back to 5.  Do a little bit more cleanup, and voila! Our first passing test!
 
-![first test](complete-test.png)
+{% asset_figure_img complete-test.png first test %}
 
 Our second test will verify that the label text is correct. Our expected values go into an array, and we can use a for loop to iterate over the elements and make our assertion.
 > Did I mention that I chose Swift as my test language?
@@ -98,7 +100,9 @@ Our second test will verify that the label text is correct. Our expected values 
 Notice that when we index our collection of elements, we have a slightly different construct than a simple array index.  We first have to convert our index into a *UInt*, and then use *elementBoundByIndex* to get the element, and then get the *label* property of that element.
 
 Cmd-U to run that.  Now change the expected values to fail the test.  And back again for passing.  WooHoo!
-![second test](second-test.png)
+
+{% asset_figure_img second-test.png second test %}
+
 #### Success
 Two Xcode UI tests!!! I considered writing a third test to verify the background color for each label.  However, background color is not supported as an element property...yet. The lack of basic color properties on elements may limit the types of tests you can write.  I'll do a bit more research and follow up on supported properties soon.
 

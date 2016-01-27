@@ -3,12 +3,17 @@
 article {
   .content :link:hover { text-decoration: underline; }
 
-  p,ul,ol,blockquote,.highlight,>pre,hr {
+  p,ul,ol,blockquote,.highlight,>pre,hr,figure {
     margin-bottom: @margin-base;
   }
 
-  h1,h2,h3,h4,h5,h6,p,ul,ol,.highlight,>pre,footer {
+  h1,h2,h3,h4,h5,h6,p,ul,ol,.highlight,>pre,footer,figure {
     &:extend(.readability, .auto-margin);
+  }
+
+  figure >img {
+    display: block;
+    &:extend(.auto-margin);
   }
 
   @media only screen
