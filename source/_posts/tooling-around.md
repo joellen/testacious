@@ -6,7 +6,7 @@ featured_image: tools.jpg
 date: 2016-08-21 16:17:28
 ---
 
-My current team embraces API first, which is exciting to experience first-hand.  That means we have plenty of time to write some tests that will run continuously, thus alerting us to an unexpected changes.  Note I'm not calling 'unexpected changes' breakage - code is not broken while it is still a work in progress!  Our automated tests serve as a safety net so that we can make sure any changes are intentional rather than accidental
+My current team embraces API first, which is exciting to experience first-hand.  That means we have plenty of time to write some tests that will run continuously, thus alerting us to unexpected changes.  Note I'm not calling 'unexpected changes' breakage - code is not broken while it is still a work in progress!  Our automated tests serve as a safety net so that we can make sure any changes are intentional rather than accidental
 
 To that end, I have taken advantage of three different testing tools for testing several different api's.  Why three?  Well, no single tool does everything I need it to do.
 
